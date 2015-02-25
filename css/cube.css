@@ -8,6 +8,10 @@ body {
 	-webkit-perspective: 400; */
 	perspective: 400px;
 	perspective-origin: 50% 100px;
+        position: fixed;
+        right: 0px;
+        top: 100px;
+        
 }
 #cube {
 	position: relative;
