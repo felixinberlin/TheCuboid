@@ -53,3 +53,7 @@ body {
     background-image: url('../images/city stones.jpg');
     background-size: contain;
 }
+.face.left{
+    background-image: url('../images/Tom und Mikael.jpg');
+    background-size: contain;
+}
