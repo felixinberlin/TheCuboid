@@ -1,0 +1,55 @@
+body {
+	font: 18px sans-serif;
+}
+#experiment {
+	/* -moz-perspective: 400;
+	-webkit-perspective: 400; */
+	perspective: 400px;
+	perspective-origin: 50% 100px;
+}
+#cube {
+	position: relative;
+	margin: 50px auto 0;
+	height: 200px;
+	width: 200px;
+	transition: transform 2s linear;
+	transform-style: preserve-3d;
+}
+.face {
+	position: absolute;
+	height: 180px;
+	width: 180px;
+	padding: 10px;
+	background-color: rgba(25, 25, 75, 0.5);
+	line-height: 1em;
+	color: white;
+	border: 1px solid dimgray;
+	border-radius: 3px;
+}
+#cube .top  {
+	transform: rotateX(90deg) translateZ(100px);
+}
+#cube .front {
+	transform: translateZ(100px);
+}
+#cube .right {
+	transform: rotateY(90deg) translateZ(100px);
+}
+#cube .back {
+	transform: rotateY(180deg) translateZ(100px);
+}
+#cube .left {
+	transform: rotateY(-90deg) translateZ(100px);
+}
+#cube .bottom {
+	transform: rotateX(-90deg) translateZ(100px);
+}
+
+.face.top{
+    background-image: url('../images/3x3.jpg');
+    background-size: contain;
+}
+.face.bottom{
+    background-image: url('../images/city stones.jpg');
+    background-size: contain;
+}
