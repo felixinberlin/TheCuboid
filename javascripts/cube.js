@@ -3,10 +3,10 @@ var cubeStyle;
 var angleX = 0;
 var angleY = 0;
 var angles = [];
-angles[37] = [ 0, -90];  // left
-angles[38] = [90,   0];  // up
-angles[39] = [ 0,  90];  // right
-angles[40] = [-90,  0];  // down
+angles[37] = [ 0, -30];  // left
+angles[38] = [30,   0];  // up
+angles[39] = [ 0,  30];  // right
+angles[40] = [-30,  0];  // down
 function initialize() {
 	var transforms = [
 		"transform",

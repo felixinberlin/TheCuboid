@@ -1,5 +1,7 @@
 body {
 	font: 18px sans-serif;
+        background-image: url('../images/1-7.jpg');
+        background-size: cover;
 }
 #experiment {
 	/* -moz-perspective: 400;
@@ -10,10 +12,11 @@ body {
 #cube {
 	position: relative;
 	margin: 50px auto 0;
-	height: 200px;
-	width: 200px;
+	height: 400px;
+	width: 400px;
 	transition: transform 2s linear;
 	transform-style: preserve-3d;
+	top: -116px;
 }
 .face {
 	position: absolute;
