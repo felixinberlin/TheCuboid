@@ -73,3 +73,8 @@ body {
     background-image: url('../images/feet.JPG');
     background-size: contain;
 }
+
+.face.front{
+    background-image: url('../images/citrone.jpg');
+    background-size: contain;
+}
