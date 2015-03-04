@@ -15,10 +15,7 @@ function initialize() {
 		"OTransform",
 		"msTransform"
 	];
-	var allCubes = document.getElementsByClassName("cuboid");
-        console.log(allCubes);
-        var cubeElement = allCubes.item(0);
-        console.log(cubeElement);
+	var cubeElement = document.getElementById("cube");
 	var divStyle = document.createElement("div").style;
 	var count = transforms.length;
 	for(var i = 0; i < count; i++) {
@@ -30,7 +27,6 @@ function initialize() {
 		}
 	}
 	cubeStyle = cubeElement.style;
-        console.log(cubeStyle);
 }
 document.onkeydown = function (eventObject) {
 	var angleXY = angles[eventObject.keyCode];

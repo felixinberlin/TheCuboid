@@ -1,0 +1,37 @@
+                            <svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3872 2592" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <style type="text/css">
+                                    <![CDATA[
+                                    path {
+                                        fill:   rgba(0,0,0,0.1);
+                                    }
+                                    path:hover {
+                                        fill:   rgba(40,40,40,0.3);
+                                    }
+                                    ]]>
+    </style>
+    <g>
+        <image xlink:href="file:///home/felix/Dropbox/Cuboid/_DSC0196.JPG"  height="2592" width="3872" y="0" x="0"/>
+
+        <a xlink:href="http://felixinberlin.github.io/TheCuboid/">
+            <path stroke-linejoin="miter" d="M3177.3,10.182c-1958.6,1436.1-1457.1,2233-1354.6,2181.8,898.6,434.2,2034-442.5,2040.9-736.4v-1445.5z"  stroke="#000" stroke-width="1px" >
+                <desc>Go to the coins gallery</desc>
+                <title>coins</title>
+            </path>
+        </a>
+        <a xlink:href="http://felixinberlin.github.io/TheCuboid/">
+            <path stroke-linejoin="miter" d="M1113.6,737.45c195.5-172.72,195.5-172.72,195.5-172.72l40.9-200-195.5-259.09-290.86,22.72,227.26,263.64-186.35,186.36z" inkscape:connector-curvature="0" stroke="#000" stroke-linecap="butt" >
+                <desc>go to the chairs gallery</desc>
+                <title>chair</title>
+            </path>
+        </a>
+        <a xlink:href="http://felixinberlin.github.io/TheCuboid/">
+            <path stroke-linejoin="miter" d="M140.91,1082.9,363.64,878.36,545.45,1051.1s-31.818,77.273-36.364,127.27c-4.5455,50-122.73,122.73-122.73,122.73z" />
+        </a>
+        <a xlink:href="http://felixinberlin.github.io/TheCuboid/">
+            <path stroke-linejoin="miter" d="m1490.9,442,240.91,50,277.27,327.27-4.5454,227.27-713.64,740.91-109.09-13.636-540.91-536.36,13.636-140.91z" >
+                <desc>Go to the metal gallery</desc>
+                <title>metal</title>
+            </path>
+        </a>
+    </g>
+</svg>

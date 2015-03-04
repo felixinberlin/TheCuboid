@@ -7,4 +7,33 @@ and open the template in the editor.
     Created on : Feb 25, 2015, 3:59:30 PM
     Author     : felix
 */
+.container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    perspective: 100;
 
+}
+
+.cube {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    figure {
+        width: 196px;
+        height: 196px;
+        display: block;
+        position: absolute;
+        border: 2px solid black;
+        opacity: 0.5;
+    }
+
+    .front  { transform: rotateY(   0deg ) translateZ( 100px ); }
+    .back   { transform: rotateX( 180deg ) translateZ( 100px ); }
+    .right  { transform: rotateY(  90deg ) translateZ( 100px ); }
+    .left   { transform: rotateY( -90deg ) translateZ( 100px ); }
+    .top    { transform: rotateX(  90deg ) translateZ( 100px ); }
+    .bottom { transform: rotateX( -90deg ) translateZ( 100px ); }
+
+}

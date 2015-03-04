@@ -22,6 +22,17 @@ body {
 	transform-style: preserve-3d;
 	top: -116px;
 }
+.cuboid {
+	position: relative;
+	margin: 50px auto 0;
+	height: 400px;
+	width: 400px;
+	transition: transform 2s linear;
+	transform-style: preserve-3d;
+	top: -116px;
+}
+
+
 .face {
 	position: absolute;
 	height: 180px;
@@ -49,6 +60,24 @@ body {
 	transform: rotateY(-90deg) translateZ(100px);
 }
 #cube .bottom {
+	transform: rotateX(-90deg) translateZ(100px);
+}
+.cuboid.top  {
+	transform: rotateX(90deg) translateZ(100px);
+}
+.cuboid.front {
+	transform: translateZ(100px);
+}
+.cuboid.right {
+	transform: rotateY(90deg) translateZ(100px);
+}
+.cuboid.back {
+	transform: rotateY(180deg) translateZ(100px);
+}
+.cuboid.left {
+	transform: rotateY(-90deg) translateZ(100px);
+}
+.cuboid.bottom {
 	transform: rotateX(-90deg) translateZ(100px);
 }
 

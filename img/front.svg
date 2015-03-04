@@ -1,0 +1,18 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3872 2592" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <style type="text/css">
+	<![CDATA[
+	rect {
+       		fill:   rgba(0,0,0,0.1);
+	}
+	rect:hover {
+       		fill:   rgba(40,40,40,0.3);
+	}
+	]]>
+    </style>
+    <g>
+        <image xlink:href="./front.SVG"  height="2592" width="3872" y="-363.64" x="552.57"/>
+        <a xlink:href="http://felixinberlin.github.io/TheCuboid/">
+            <rect  height="900" width="2174.3" y="121.22" x="727.62" />
+        </a>
+    </g>
+</svg>
